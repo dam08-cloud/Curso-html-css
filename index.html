@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+<body>
+    <iframe src="https://drive.google.com/file/d/1atYB5xNtQBumJOuz1pbaTonT2G3-dqMr/preview" width="640" height="480" allow="autoplay"></iframe>
+    <h1>En la esquina inferior derecha teneís el chat. Preguntarle vuestras dudas.</h1>
+    <h1 style="right: 100px; position: absolute; bottom: 20px;">-></h1>
+    <p>Solo teneís que darle y empezar a chatear.</p>
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '669d1a837cb72062dd550c3c' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+</html>
